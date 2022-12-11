@@ -1,3 +1,21 @@
+*{
+  background-color: black;
+  color: darkolivegreen;
+}
+
+div.card-header, div.card-footer{
+  background-color: darkolivegreen;
+  color: black;
+}
+
+a.active, a.inactive{
+  color: darkolivegreen;
+}
+
+div.card{
+  border: none;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +28,9 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+button.btn.btn-primary{
+  background-color: green!important;
+  border: none;
 }
